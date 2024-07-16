@@ -1,0 +1,8 @@
+<p>
+  <!-- Wzorzec łącznika -->
+  <a href="{% url 'learning_logs:index' %}">Learning Log</a>
+  <a href="{% url 'learning_logs:topics' %}">Tematy</a>
+</p>
+
+<!-- Szablon potomny będzie definiował jakiego rodzaju informacje zostaną umieszczone w bloku content -->
+{%block content %}{%endblock content%}
